@@ -48,3 +48,32 @@ body {
     padding: 20px;
 
 }
+/* Styles for the price input container */
+.price-input-container {
+    width: 100%;
+
+}
+.price-input .price-field {
+    margin-bottom: 22px;
+    display: flex;
+}
+.price-field span {
+    margin-right: 10px;
+    margin-top: 6px;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.price-field input {
+    flex: 1;
+    height : 35px;
+    font-size: 15px;
+    border-raduis: 9px;
+    text-align: center;
+    border: 0px;
+    font-family: "DM Sans", sans-serif;
+}
+.price-input {
+    width: 100%;
+    font-size: 19px;
+    color: #555;
+}
