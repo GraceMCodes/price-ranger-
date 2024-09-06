@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Customize Price Ranger</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="main">
@@ -30,7 +31,22 @@
           <div class="price-slider"></div>
         </div>
         <!-- slider -->
+         <div class="range-input">
+            <input type="range"
+            class="min-range"
+            min="0"
+            max="10000"
+            value="2500"
+            step="1">
+            <input type="range"
+            class="max-range"
+            min="0"
+            max="10000"
+            value="8500"
+            step="1">
+         </div>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
